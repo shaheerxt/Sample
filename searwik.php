@@ -4,7 +4,7 @@
 Webhook URL
 $slack_webhook_url = "https://hooks.slack.com/services/T0XXXXXXX/B0XXXXXXX/xxxxxxxxxxxxxxxxxxxxxxxx"; // replace that URL with your webhook URL
 https://hooks.slack.com/services/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 -->
-$slack_webhook_url = "https://hooks.slack.com/services/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";
+$slack_webhook_url = "https://hooks.slack.com/services/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";
 
 <!-- $icon_url = ""; // the URL for where you upload the image, eg http://domain.com/slackipedia/wikipedia-logo-cc-by-sa_0.png
 https://a.slack-edge.com/80588/img/services/outgoing-webhook_48.png -->
