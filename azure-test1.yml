@@ -22,3 +22,11 @@ steps:
     echo -e "hello\nhai" >> /tmp/test1sh.txt
     cat /tmp/test1sh.txt
   displayName: 'Display file contents'
+
+- script: |
+    lscpu
+    free -m -t
+    uname -a
+    cat /etc/os-release
+    date
+  displayName: 'Display OS specs'
