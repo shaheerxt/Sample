@@ -13,5 +13,7 @@ steps:
 - script: |
     echo "create user called testuser"
     useradd testuser
+    passwd testuser
+    $(testuser)
     id testuser
   displayName: 'user addition script'
