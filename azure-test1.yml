@@ -11,9 +11,14 @@ pool:
 
 steps:
 - script: |
-    echo "create user called testuser"
-    useradd testuser
-    passwd testuser
-    $(testuser)
-    id testuser
-  displayName: 'user addition script'
+    echo "create new file"
+    touch /tmp/test1sh.txt
+    echo "hello this is me" >> /tmp/test1sh.txt
+    ls -lart /tmp/test1sh.txt
+  displayName: 'File Create'
+
+- script: |
+    echo "put some values"
+    echo -e "hello\nhai" >> /tmp/test1sh.txt
+    cat /tmp/test1sh.txt
+  displayName: 'Display file contents'
